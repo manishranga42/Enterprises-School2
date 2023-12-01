@@ -299,9 +299,6 @@
 .service-item {
     background: var(--light);
     transition: .5s;
-    width: 190px;
-    height: 320px;
-    font-size: 10px;
 }
 
 .service-item:hover {
@@ -316,7 +313,6 @@
 .service-item:hover * {
     color: var(--light) !important;
 }
-
 
 /*** Categories & Courses ***/
 .category img,
