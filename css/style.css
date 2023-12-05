@@ -71,6 +71,7 @@
   .hvr-sweep-to-right:before {
     content: "";
     position: absolute;
+    margin: -1px;
     z-index: -1;
     top: 0;
     left: 0;
