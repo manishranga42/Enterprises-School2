@@ -542,6 +542,92 @@
 
 }
 
+#registration{
+    background-image: linear-gradient(rgba(99,112,168,0.5),rgba(81,91,233,0.5)),url("img2/bg1.jpg");;
+    /* width: 100%; */
+    /* height: 100%; */
+    height: 550px;
+    margin: -15px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#registration .reminder{
+    
+    font-size: 50px;
+    margin-left: 20px;
+    
+}
+#registration .reminder .time{
+    display: flex;
+    margin-top: 40px;
+
+    
+    
+}
+
+#registration .reminder .time .date{
+    text-align: center;
+    padding: 13px 33px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 10px;
+    margin: 0 5px 10px 5px;
+    border:     1px solid #fff ;
+    font-size: 1.1rem;
+    font-weight: 600;
+    
+}
+
+#registration .reminder h1{
+   
+
+}
+
+#registration .form{
+    background: #fff;
+    height: 450px;
+    width: 450px;
+    margin-right: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+}
+
+#registration .form input{
+    margin: 15px 0;
+    /* margin-bottom: 20px; */
+    padding: 15px 10px;
+    border:1px solid rgb(84, 40, 241) ;
+}
+
+.blogs .post{
+    width: 60%;
+    margin: 0 auto;
+};
+
+.blogs .post p{
+   text-align: justify;
+}
+
+.blogs .post h1{
+   text-align: center;
+   margin: 20px;
+}
+
+.blogs .post img{
+    width: 90%;
+    border-radius: 5%;
+    box-shadow: 20px solid black;
+   
+}
+
 .contact .info i {
   font-size: 20px;
   color: #47b2e4;
